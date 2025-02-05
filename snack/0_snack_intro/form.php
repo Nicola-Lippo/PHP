@@ -2,7 +2,7 @@
 $p = $_GET['paragrafo'];
 $badwords = $_GET['badwords'];
 //paragrafo censurato con parola sostituita
-$censored_text = str_replace($badwords, '***', $p);
+$censored_text = str_ireplace($badwords, '***', $p);
 ?>
 <!DOCTYPE html>
 <html lang="en">

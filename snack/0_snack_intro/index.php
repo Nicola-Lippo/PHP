@@ -8,9 +8,11 @@
 </head>
 
 <body>
+    <!--action indica la pagina da chiamare, method GET (in chiaro nella barra degli indirizzi)-->
     <form action="form.php" method="GET">
         <h3>Compila il form</h3>
         <div>
+            <!--name serve per la barra degli indirizzi-->
             <label for="p">Paragrafo</label>
             <input type="text" name="paragrafo" id="p">
         </div>
