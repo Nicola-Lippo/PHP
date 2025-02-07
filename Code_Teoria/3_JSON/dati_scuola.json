@@ -1,0 +1,46 @@
+{
+    "studenti": [
+        {
+            "nome": "Marco",
+            "cognome": "Rossi",
+            "eta": 20
+        },
+        {
+            "nome": "Giulia",
+            "cognome": "Bianchi",
+            "eta": 22
+        },
+        {
+            "nome": "Luca",
+            "cognome": "Verdi",
+            "eta": 19
+        },
+        {
+            "nome": "Anna",
+            "cognome": "Ferrari",
+            "eta": 21
+        },
+        {
+            "nome": "Davide",
+            "cognome": "Esposito",
+            "eta": 23
+        }
+    ],
+    "insegnanti": [
+        {
+            "nome": "Mario",
+            "cognome": "Rossi",
+            "materia": "Matematica"
+        },
+        {
+            "nome": "Laura",
+            "cognome": "Bianchi",
+            "materia": "Inglese"
+        },
+        {
+            "nome": "Giovanni",
+            "cognome": "Verdi",
+            "materia": "Storia"
+        }
+    ]
+}
