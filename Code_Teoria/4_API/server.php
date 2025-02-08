@@ -1,32 +1,7 @@
 <?php
-//array php
-$linguaggi = [
-    [
-        "nome" => "PHP",
-        "fatto" => false
-    ],
-    [
-        "nome" => "JavaScript",
-        "fatto" => true
-    ],
-    [
-        "nome" => "Python",
-        "fatto" => false
-    ],
-    [
-        "nome" => "Java",
-        "fatto" => false
-    ],
-    [
-        "nome" => "C++",
-        "fatto" => true
-    ],
-    [
-        "nome" => "Html",
-        "fatto" => true
-    ]
-];
-//modifichiamo chiava da rete che sia json
+//leggiamo un file
+$linguaggi = file_get_contents(__DIR__ . '/linguaggi.json');
+
+//modifichiamo chiave di rete che sia json
 header('Content-Type: application/json');
-//trasformazione in json
-echo json_encode($linguaggi);
+echo $linguaggi;

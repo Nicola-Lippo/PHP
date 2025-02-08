@@ -1,0 +1,30 @@
+[
+    {
+        "nome": "PHP",
+        "fatto": false
+    },
+    {
+        "nome": "JavaScript",
+        "fatto": true
+    },
+    {
+        "nome": "Python",
+        "fatto": false
+    },
+    {
+        "nome": "Css",
+        "fatto": true
+    },
+    {
+        "nome": "Java",
+        "fatto": false
+    },
+    {
+        "nome": "C++",
+        "fatto": true
+    },
+    {
+        "nome": "Html",
+        "fatto": true
+    }
+]
