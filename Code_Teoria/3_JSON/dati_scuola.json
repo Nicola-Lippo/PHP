@@ -41,6 +41,11 @@
             "nome": "Giovanni",
             "cognome": "Verdi",
             "materia": "Storia"
+        },
+        {
+            "nome": "Luca",
+            "cognome": "Marroni",
+            "materia": "Geometria"
         }
     ]
 }
