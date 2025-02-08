@@ -1,0 +1,1 @@
+NB. all'interno di un server per coerenza scriviamo solo file .php; qui simuleremo un clients con pagine .html.
