@@ -6,9 +6,12 @@ const objApp = {
     data() {
         return {
             title: 'Test API con PHP',
-            apiUrl: 'http://localhost/Code_Teoria/4_API/server.php',
+            title2: 'Sezione dettagli linguaggio',
+            apiUrl: 'http://localhost/Code_Teoria/4_API/server.php/',
             //array vuoto iniziale
             linguaggi: [],
+            //variabile per read
+            current: null,
         };
     },
     methods: {
@@ -20,6 +23,18 @@ const objApp = {
                 this.linguaggi = resp.data;
             });
         },
+        getCurrentL(id) {
+            axios.get(this.apiUrl, {
+                params: {
+                    'idL': id,
+                    action: 'read',
+                },
+            }).then((resp) => {
+                console.log(resp);
+                this.current = resp.data;
+            });
+
+        }
     },
     created() {
         console.log('axios chiamato');

@@ -1,30 +1,44 @@
 [
     {
+        "id": 1,
         "nome": "PHP",
-        "fatto": false
+        "fatto": true,
+        "descrizione": "PHP (Hypertext Preprocessor): \u00c8 un linguaggio di programmazione server-side usato per generare contenuti dinamici, gestire database e autenticare utenti nelle applicazioni web."
     },
     {
+        "id": 2,
         "nome": "JavaScript",
-        "fatto": true
+        "fatto": true,
+        "descrizione": "JavaScript (JS): \u00c8 un linguaggio di programmazione client-side che aggiunge interattivit\u00e0 e dinamismo alle pagine web, come animazioni, aggiornamenti in tempo reale e gestione degli eventi."
     },
     {
+        "id": 3,
         "nome": "Python",
-        "fatto": false
+        "fatto": false,
+        "descrizione": "Python: \u00c8 un linguaggio di programmazione ad alto livello, semplice e leggibile, usato per sviluppo web, automazione, data science e intelligenza artificiale. Ha una sintassi chiara e una vasta libreria di moduli."
     },
     {
-        "nome": "Css",
-        "fatto": true
+        "id": 4,
+        "nome": "CSS",
+        "fatto": true,
+        "descrizione": "CSS (Cascading Style Sheets): \u00c8 il linguaggio di stile utilizzato per definire l'aspetto delle pagine web, controllando colori, font, layout e responsivit\u00e0."
     },
     {
+        "id": 5,
         "nome": "Java",
-        "fatto": false
+        "fatto": false,
+        "descrizione": "Java: \u00c8 un linguaggio di programmazione orientato agli oggetti, famoso per la sua portabilit\u00e0. \u00c8 ampiamente usato nello sviluppo di applicazioni aziendali, Android e software multipiattaforma."
     },
     {
+        "id": 6,
         "nome": "C++",
-        "fatto": true
+        "fatto": false,
+        "descrizione": "C++: \u00c8 un linguaggio di programmazione potente e performante, utilizzato per lo sviluppo di software di sistema, videogiochi e applicazioni ad alte prestazioni. Supporta programmazione orientata agli oggetti e gestione avanzata della memoria."
     },
     {
-        "nome": "Html",
-        "fatto": true
+        "id": 7,
+        "nome": "HTML",
+        "fatto": true,
+        "descrizione": "HTML (HyperText Markup Language): \u00c8 il linguaggio di markup usato per strutturare le pagine web, definendo elementi come testi, immagini, link e sezioni della pagina."
     }
 ]
