@@ -11,3 +11,6 @@ https://www.php.net/manual/en/language.constants.magic.php
 
 Variabile di sessione
 https://www.w3schools.com/php/php_sessions.asp
+
+Type declaration
+https://www.php.net/manual/en/language.types.intro.php
